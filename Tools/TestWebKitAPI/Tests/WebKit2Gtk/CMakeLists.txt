@@ -23,7 +23,7 @@ include_directories(
     ${TOOLS_DIR}/TestWebKitAPI/gtk/WebKit2Gtk
 )
 
-include_directories(SYSTEM
+include_directories(
     ${ATSPI_INCLUDE_DIRS}
     ${GLIB_INCLUDE_DIRS}
     ${GSTREAMER_INCLUDE_DIRS}

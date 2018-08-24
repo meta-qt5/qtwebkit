@@ -42,7 +42,7 @@ set(WebKitTestNetscapePlugin_SYSTEM_INCLUDE_DIRECTORIES
 )
 
 include_directories(${WebKitTestNetscapePlugin_INCLUDE_DIRECTORIES})
-include_directories(SYSTEM ${WebKitTestNetscapePlugin_SYSTEM_INCLUDE_DIRECTORIES})
+include_directories(${WebKitTestNetscapePlugin_SYSTEM_INCLUDE_DIRECTORIES})
 
 set(WebKitTestNetscapePlugin_LIBRARIES
     ${X11_LIBRARIES}

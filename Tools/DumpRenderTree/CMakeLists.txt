@@ -115,7 +115,7 @@ list(APPEND TestNetscapePlugin_LIBRARIES
 WEBKIT_INCLUDE_CONFIG_FILES_IF_EXISTS()
 
 include_directories(${DumpRenderTree_INCLUDE_DIRECTORIES})
-include_directories(SYSTEM ${DumpRenderTree_SYSTEM_INCLUDE_DIRECTORIES})
+include_directories(${DumpRenderTree_SYSTEM_INCLUDE_DIRECTORIES})
 
 add_executable(DumpRenderTree ${DumpRenderTree_SOURCES})
 target_link_libraries(DumpRenderTree ${DumpRenderTree_LIBRARIES})

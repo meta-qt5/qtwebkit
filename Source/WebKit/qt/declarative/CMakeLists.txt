@@ -15,7 +15,7 @@ include_directories(
 
     ${WTF_DIR}
 )
-include_directories(SYSTEM
+include_directories(
     ${ICU_INCLUDE_DIRS}
     ${Qt5Quick_INCLUDE_DIRS}
     ${Qt5Quick_PRIVATE_INCLUDE_DIRS}

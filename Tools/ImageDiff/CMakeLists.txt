@@ -14,7 +14,7 @@ set(IMAGE_DIFF_LIBRARIES
 WEBKIT_INCLUDE_CONFIG_FILES_IF_EXISTS()
 
 include_directories(${IMAGE_DIFF_INCLUDE_DIRECTORIES})
-include_directories(SYSTEM ${IMAGE_DIFF_SYSTEM_INCLUDE_DIRECTORIES})
+include_directories(${IMAGE_DIFF_SYSTEM_INCLUDE_DIRECTORIES})
 add_executable(ImageDiff ${IMAGE_DIFF_SOURCES})
 target_link_libraries(ImageDiff ${IMAGE_DIFF_LIBRARIES})
 set_target_properties(ImageDiff PROPERTIES FOLDER "Tools")

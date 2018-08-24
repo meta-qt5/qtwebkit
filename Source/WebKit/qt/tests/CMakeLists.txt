@@ -7,7 +7,7 @@ include_directories(
     "${WEBKIT_DIR}/qt/WidgetApi"
 )
 
-include_directories(SYSTEM
+include_directories(
     ${ICU_INCLUDE_DIRS}
     ${Qt5Gui_PRIVATE_INCLUDE_DIRS}
     ${Qt5Widgets_INCLUDE_DIRS}

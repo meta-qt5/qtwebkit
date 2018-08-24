@@ -62,7 +62,7 @@ if (ENABLE_TEST_SUPPORT)
 endif ()
 
 include_directories(${QtTestBrowser_INCLUDE_DIRECTORIES})
-include_directories(SYSTEM ${QtTestBrowser_SYSTEM_INCLUDE_DIRECTORIES})
+include_directories(${QtTestBrowser_SYSTEM_INCLUDE_DIRECTORIES})
 add_executable(QtTestBrowser ${QtTestBrowser_SOURCES})
 target_link_libraries(QtTestBrowser ${QtTestBrowser_LIBRARIES})
 set_target_properties(QtTestBrowser PROPERTIES FOLDER "Tools" AUTOMOC ON)
